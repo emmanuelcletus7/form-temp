@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="shortcut icon" href="img/magistrate.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- form banner -->
+    <div id="form">
+        <h2>CONTACT US</h2>
+        <div id="space">
+            <form action="form.php" method="post">
+                <input type="text" placeholder="First Name" name="name"><br>
+                <input type="password" placeholder="enter password" name="passweord"><br>
+                <input type="checkbox" name="visited" id="states" value="enugu"> Enugu
+                <input type="checkbox" name="origin" id="Lagos"> Lagos <br>
+
+                <input type="radio" name="Gender" id="sex" value="m">male
+                <input type="radio" name="Gender" id="sex" value="f">female <br>
+
+                <select name="Country" id="country">
+                    <option value="ng">nigeria</option>
+                    <option value="gh">ghana</option>
+                    <option value="us">usa</option>
+                    <option value="uk">uk</option>
+                    <option value="aus">australia</option>
+                </select> <br>
+                <input type="file" name="profile" accept="image/*"> <br>
+                <input type="color" name="colour" id="color">
+                <input type="datetime-local" name="date" id="date"> <br> <br>
+                <input type="number" name="number" id="number"> <br> <br>
+                <input type="month" name="month" id="month"> <br> <br>
+                <input type="search" name="search" id="search"> <br> <br>
+                <button id="btn ">click me</button> <br> <br>
+                <input type="button" value="click me"> <br> <br>
+                <textarea name="description" id="des" cols="30" rows="10"></textarea> <br> <br>
+
+                <input type="submit" value="submit"> <br>
+                <input type="reset" value="reset"> <br>
+        </div>
+    </div>
+    <table border="2">
+        <caption>Students Data</caption>
+        <tr>
+            <th>S/N</th>
+            <th>Name</th>
+            <th>Age</th>
+        <tr>
+            <td>1</td>
+            <td>Benny</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Alex</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sophia</td>
+            <td>30</td>
+        </tr>
+        </tr>
+    </table>
+</body>
+
+</html>

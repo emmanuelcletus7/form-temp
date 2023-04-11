@@ -1,0 +1,28 @@
+/* #form {
+    background-image: url(../img/throwingcap.jpg)
+}
+
+#form h2 {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+#form img {
+    text-align: center;
+}
+
+#space input {
+    width: 30%;
+    height: 40%;
+    font-size: xx-large;
+} */
+table{
+    border-collapse: collapse;
+    width: 33.33%;
+    height: 50%;
+}
+td:hover{
+    background-color: red;
+    color: white;
+}
